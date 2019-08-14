@@ -24,7 +24,7 @@ import java.io.InputStream;
 public class TextTest {
 
     @Test
-    public void testGenerateImage() throws Exception {
+    public void testGenerateText() throws Exception {
         byte[] pdfBytes = createPdf("Test text");
 
         Assert.assertTrue("PDF size is 0", pdfBytes.length > 0);
