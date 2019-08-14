@@ -34,7 +34,7 @@ public class ImageTest {
 
                 PdfTemplate pdfTemplate = directContent.createTemplate(innerWidth, innerHeight);
                 pdfTemplate.addImage(pdfImage, innerWidth, 0, 0, innerHeight, 0, 0);
-                directContent.addTemplate(pdfTemplate, 1, 0, 0, 1, 10, innerHeight);
+                directContent.addTemplate(pdfTemplate, 1, 0, 0, 1, 10, 800 - innerHeight);
             }
 
             document.close();
