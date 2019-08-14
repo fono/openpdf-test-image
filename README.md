@@ -1,4 +1,6 @@
 # openpdf-test-image
-Test project for OpenPDF image issue presentation
+Test project for OpenPDF issue presentation
 
-This project has a single test that inserts an image (resources/test.png) to an empty PDF document, which is then saved to the target folder. The completely black pixels of the image become white in the PDF.
+This project has the following tests:
+* Binary image transparency issue test (fixed in 1.3.2): `ImageTest.testGenerateImage()`
+* Font render issue test (introduced in 1.3.2): `TextTest.testGenerateText()`
